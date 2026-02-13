@@ -1,87 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Para ti ❤️</title>
-
-  <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(135deg, #ff758c, #ff7eb3);
-      font-family: 'Segoe UI', sans-serif;
-      color: white;
-      text-align: center;
-      overflow: hidden;
-    }
-
-    .card {
-      background: rgba(255, 255, 255, 0.15);
-      backdrop-filter: blur(10px);
-      border-radius: 20px;
-      padding: 40px 25px;
-      max-width: 350px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-      animation: fadeIn 1.5s ease;
-    }
-
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 1.1em;
-      line-height: 1.6;
-    }
-
-    .heart {
-      font-size: 3em;
-      animation: beat 1.2s infinite;
-      margin: 20px 0;
-    }
-
-    footer {
-      margin-top: 20px;
-      font-size: 0.9em;
-      opacity: 0.9;
-    }
-
-    @keyframes beat {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.3); }
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inicio - Amor / San Valentín</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="card">
-    <h1>Hola, amor 💕</h1>
 
-    <p>
-      Hice esta pequeña página<br>
-      solo para recordarte algo:
-    </p>
+<div class="background-gradient"></div>
+<div id="hearts-container"></div>
 
-    <div class="heart">❤️</div>
+<nav>
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="momentos.html">Momentos</a></li>
+    <li><a href="tiempo.html">Tiempo</a></li>
+    <li><a href="juego.html">Juego</a></li>
+  </ul>
+</nav>
 
-    <p>
-      Eres muy especial para mí<br>
-      y me haces muy feliz.
-    </p>
+<main class="page">
+  <h1>Te Amo ILHAM</h1>
+  
+  <div id="dailyMessage" class="daily-message"></div>
 
-    <footer>
-      Para ti, con todo mi cariño ✨
-    </footer>
+  <div class="image-central animated-frame">
+    <img src="/img/5771772332102847890.jpg" alt="Pareja">
   </div>
+
+ 
+  <p>
+    Ilham de Verdad te llevo conociendo 1 mes y siento que eres la mejor persona del mundo, y espero que sigamos juntos por mucho tiempo más, ya que Wlah que Te amo demasiado
+    no se si me has hecho brujeria o algo pero siento que eres el amor de mi vida y no quiero perderte por nada del mundo. Eres lo mejor que me ha pasado en la vida y siempre voy a estar agradecido por haberte puesto en mi camino.
+    Te amo con todo mi corazón y siempre voy a estar para ti en las buenas y en las malas. Eres mi todo y no puedo esperar para ver lo que el futuro nos depara juntos, ya que se que mientras estemos juntos, todo sera mejor.
+  </p>
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
